@@ -11,49 +11,37 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+
+* Ph.D in Computer Science, Princeton University, 2018 - Present
+* B.S. in Computer Science, UMass - Amherst, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2017: Microsoft
+  * Worked as a member of the Windows and Devices Group in the Core OS Development – Base Kernel – Kernel Core Team. The main technologies and tools used were C and WinDbg.
+  * Ported the Windows 10 Segment Heap to run in kernel mode, and work with both paged and non-paged memory pool types
+  * Made modifications to the existing Windows 10 Segment heap to meet the requirements of the existing memory pools
+  * Ported the existing heap stress test to run in kernel mode 
+* Summer 2016: Microsoft
+  * Worked as a member of the Windows and Devices Group in the Core OS Development – Storage and File Systems – ReFS team. The main technologies and tools used were Microsoft C/C++, Visual Studio 2015 Enterprise and WinDbg 
+  * Developed a tool for ReFS (Resilient File System), designed to detect storage leaks, as well as leaks in Cloned Data Blocks 
+  * Developed a performance improvement in the mainline production code that improved end-to-end IOPS performance by 3% 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+C, C++, Python, Java, JavaScript, Linux, UNIX, Windows, Operating Systems, Git
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  {% assign sortedpubs = site.publications | sort: 'date' | reverse %}
+  <ul>{% for post in sortedpubs %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  {% assign sortedteaching = site.teaching | sort: 'date' | reverse %}
+  <ul>{% for post in sortedteaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
