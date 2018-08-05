@@ -81,10 +81,10 @@ author:
   name             : "Sam Ginzburg"
   avatar           : "profile.png"
   bio              : "I am a computer science student and enthusiast - with interests in both computer systems and security. Starting in Fall 2018 I will be a graduate student at Princeton University."
-  location         : "Princeton, NJ"
+  location         :
   employer         :
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : "lastname.sam@gmail.com"
+  email            :
   uri              :
   bitbucket        :
   codepen          :
