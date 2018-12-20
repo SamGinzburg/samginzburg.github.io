@@ -1,0 +1,22 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Sam Ginzburg"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Confirming the Obvious"
+    url = "/cto/"
+    weight = 1
+
+[params]
+    description = "Sam Ginzburg"
+    footer = "[LinkedIn](https://www.linkedin.com/in/samuelginzburg/) | [Github](https://github.com/SamGinzburg) | [Twitter](https://twitter.com/sam_ginzburg) | ginzburg@cs.princeton.edu"
+    custom_css = ["css/theme-override.css"]
