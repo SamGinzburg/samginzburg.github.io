@@ -3,7 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019/02/01/the-practicality-usability-exploit-gap/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-security/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/computer-security/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12,11 +29,31 @@
   </url>
   
   <url>
+    <loc>/categories/covert-channels/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/side-channels/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-02-01T11:00:23-05:00</lastmod>
     <priority>0</priority>
   </url>
   
