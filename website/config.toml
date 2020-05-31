@@ -1,0 +1,4 @@
+baseURL = "http://samginzburg.com/"
+languageCode = "en-us"
+title = "Sam Ginzburg"
+theme = "hyde"

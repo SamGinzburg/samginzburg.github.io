@@ -1,0 +1,39 @@
+{{ define "main" -}}
+<div class="bio">
+  <h1>Biography</h1>
+  Sam Ginzburg is a PhD student at Princeton University studying computer science at <a href="https://www.cs.princeton.edu/">Princeton University</a>.
+  He is a part of the <a href="https://sns.princeton.edu/">SNS Research Group</a>, and is advised by <a href="https://www.cs.princeton.edu/~mfreed/">Michael Freedman</a>.
+  He is primarily working on finding new ways to improve cloud serverless (FaaS) platforms.
+  <br>  <br>  <br>
+  He previously worked in the <a href="https://sns.princeton.edu/">PLASMA Research Group</a> at the University of Massachusetts - Amherst, with <a href="https://emeryberger.com/">Emery Berger</a>, as well as the
+  <a href="http://plantcompgenomics.com/research/">UConn Plant Computational Genomic Lab</a> with <a href="http://plantcompgenomics.com/people-jill-wegrzyn/">Jill Wegrzyn</a>.
+</div>
+<div class="Publications">
+  <h1>Publications</h1>
+  <ul>
+    {{ range $val := .Site.Data.publications }}
+      <a href="{{ .link }}"><li><b>{{ .title }}</b></li></a>
+      {{ range $elem_key, $val := .authors }}
+        {{if eq $elem_key 1}}
+          {{ if eq . "Samuel Ginzburg" }}
+            <b>{{ . }},</b>
+          {{ else }}
+            {{ . }},
+          {{ end }}
+        {{else}}
+          {{ if eq . "Samuel Ginzburg" }}
+            <b>{{ . }},</b>
+          {{ else }}
+            {{ . }},
+          {{ end }}
+        {{ end }}
+      {{ end }} <br>
+      {{ .venue }}
+      {{ .year }}
+    {{ end }}
+    </ul>
+</div>
+
+{{- end }}
+
+
