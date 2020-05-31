@@ -1,4 +1,4 @@
-baseURL = "http://samginzburg.com/"
+baseURL = "https://samginzburg.com/"
 languageCode = "en-us"
 title = "Sam Ginzburg"
 theme = "hyde"
