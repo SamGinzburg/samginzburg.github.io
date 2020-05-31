@@ -1,7 +1,7 @@
 <aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <img src="{{ .Site.BaseURL }}photo_compressed.png"></img>
+      <img class="image" src="{{ .Site.BaseURL }}photo_compressed.png"></img>
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
       <p class="lead">
       {{ with .Site.Params.description }} {{.}} {{ else }} PhD Student <br> <a href="https://www.cs.princeton.edu/">Princeton University</a> {{end}}
