@@ -1,3 +1,10 @@
+- title: "Serverless Isn’t Server-Less: Measuring and Exploiting Resource Variability on Cloud FaaS Platforms"
+  venue: "Workshop on Serverless Computing (WoSC'20), December 7-11, 2020, Delft, Netherlands"
+  year: 2020
+  link: "/papers/serverless-wosc20.pdf"
+  authors:
+    - Samuel Ginzburg
+    - Michael J. Freedman
 - title: "EnTAP: bringing faster and smarter functional annotation to non-model eukaryotic transcriptomes"
   venue: "Molecular Ecology Resources"
   year: 2019

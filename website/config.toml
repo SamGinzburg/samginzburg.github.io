@@ -2,3 +2,5 @@ baseURL = "https://samginzburg.com/"
 languageCode = "en-us"
 title = "Sam Ginzburg"
 theme = "hyde"
+googleAnalytics = "UA-119879289-1"
+
