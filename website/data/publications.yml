@@ -1,3 +1,17 @@
+- title: "Palette Load Balancing: Locality Hints for Serverless Functions"
+  venue: "EuroSys '23, May 8th-12th, Rome, Italy"
+  year: 2023
+  link: "/papers/palette-eurosys23.pdf"
+  authors:
+    - Mania Abdi
+    - Samuel Ginzburg
+    - Charles Lina
+    - José M Faleiro
+    - Íñigo Goiri
+    - Gohar Chaudhry
+    - Ricardo Bianchini
+    - Daniel S. Berger
+    - Rodrigo Fonseca
 - title: "Serverless Isn’t Server-Less: Measuring and Exploiting Resource Variability on Cloud FaaS Platforms"
   venue: "Workshop on Serverless Computing (WoSC'20), December 7-11, 2020, Delft, Netherlands"
   year: 2020
