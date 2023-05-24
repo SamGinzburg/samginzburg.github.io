@@ -1,3 +1,11 @@
+- title: "VectorVisor: A Binary Translation Scheme for Throughput-Oriented GPU Acceleration"
+  venue: "USENIX ATC '23, July 10th-12th, Boston, USA"
+  year: 2023
+  link: "/papers/vectorvisor_atc23.pdf"
+  authors:
+    - Samuel Ginzburg
+    - Mohammad Shahrad
+    - Michael J. Freedman
 - title: "Palette Load Balancing: Locality Hints for Serverless Functions"
   venue: "EuroSys '23, May 8th-12th, Rome, Italy"
   year: 2023
