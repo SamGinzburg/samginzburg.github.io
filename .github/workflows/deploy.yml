@@ -1,0 +1,34 @@
+name: Deploy Zola site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change this if your default branch is different
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Rust (needed for Zola)
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Install Zola
+        run: |
+          cargo install zola
+
+      - name: Build Zola Site
+        run: zola build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+
