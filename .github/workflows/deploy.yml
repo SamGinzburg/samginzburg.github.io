@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          submodules: recursive  # This line ensures submodules are checked out
 
       - name: Install Rust (needed for Zola)
         uses: actions-rs/toolchain@v1
@@ -20,7 +22,7 @@ jobs:
 
       - name: Install Zola
         run: |
-          cargo install zola
+          sudo snap install --edge zola
 
       - name: Build Zola Site
         run: zola build
