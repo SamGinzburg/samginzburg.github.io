@@ -30,7 +30,7 @@ avatar = "static/img/photo_compressed.png"
 favicon = "static/img/favicon.png"
 
 # Your email address showed in the contact section
-email = "ginzburg@cs.princeton.edu"
+email = "ginzburg@alumni.princeton.edu"
 
 # If you don't want to show your contact information in the index
 contact_in_index = true
@@ -42,7 +42,7 @@ menu_items = [
 ]
 
 links = [
-    { title = "Mail", href = "mailto:ginzburg@cs.princeton.edu" },
+    { title = "Mail", href = "mailto:ginzburg@alumni.princeton.edu" },
     { title = "GitHub", href = "https://github.com/SamGinzburg" },
     { title = "LinkedIn", href = "https://www.linkedin.com/in/samuelginzburg/" }
 ]
